@@ -3,8 +3,8 @@ package Trabalho_1509;
 public class Mamifero extends Animal {
     private String corDoPelo;
 
-    public Mamifero(String nome, int idade, String som, String corDoPelo) {
-        super(nome, idade, som);
+    public Mamifero(String nome, int idade, String corDoPelo) {
+        super(nome, idade);
         this.corDoPelo = corDoPelo;
     }
 
