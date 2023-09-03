@@ -5,6 +5,8 @@ public class Cachorro extends Mamifero {
         super(nome, idade, som, corDoPelo);
     }
 
+
+
     @Override
     public void somAnimal() {
         super.somAnimal();

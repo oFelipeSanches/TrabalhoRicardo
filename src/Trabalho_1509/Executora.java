@@ -13,6 +13,8 @@ public class Executora {
         Scanner scan = new Scanner(System.in);
         n1 = scan.nextInt();
 
+        Cachorro cachorro = new Cachorro("jonas", 2, "AU", "Marrom");
+        cachorro.somAnimal();
 
     }
 }
