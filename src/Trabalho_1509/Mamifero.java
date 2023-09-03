@@ -8,8 +8,6 @@ public class Mamifero extends Animal {
         this.corDoPelo = corDoPelo;
     }
 
-
-
     public String getCorDoPelo() {
         return corDoPelo;
     }
