@@ -13,8 +13,5 @@ public class Executora {
         Scanner scan = new Scanner(System.in);
         escolha = scan.nextInt();
 
-        Cachorro cachorro = new Cachorro("jonas", 2, "Marrom");
-        cachorro.somAnimal();
-
     }
 }
