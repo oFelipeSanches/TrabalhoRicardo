@@ -10,7 +10,7 @@ public class Tartaruga extends Oviparo{
 
     @Override
     public void somAnimal() {
-        super.somAnimal();
+        System.out.println("...");
     }
 
     public String getTipoCasco() {

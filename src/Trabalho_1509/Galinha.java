@@ -11,6 +11,7 @@ public class Galinha extends Oviparo{
     @Override
     public void somAnimal() {
         super.somAnimal();
+        System.out.println("Có córicó");
     }
 
     public String getCorDaPena() {

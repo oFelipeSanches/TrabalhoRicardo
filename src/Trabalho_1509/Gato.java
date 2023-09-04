@@ -8,5 +8,6 @@ public class Gato extends Mamifero {
     @Override
     public void somAnimal() {
         super.somAnimal();
+        System.out.println("Miau");
     }
 }

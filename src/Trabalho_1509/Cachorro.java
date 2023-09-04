@@ -8,5 +8,6 @@ public class Cachorro extends Mamifero {
     @Override
     public void somAnimal() {
         super.somAnimal();
+        System.out.println("Au Au");
     }
 }

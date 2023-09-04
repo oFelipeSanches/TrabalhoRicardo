@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Executora {
     public static void main(String[] args) {
 
-        int n1;
+        int escolha;
 
         System.out.println("---------------------------------------");
         System.out.println("Escolha uma espécie abaixo:");
@@ -11,7 +11,7 @@ public class Executora {
         System.out.println("Ovíparo - 2");
         System.out.print("Digite o número conforme o que você quer: ");
         Scanner scan = new Scanner(System.in);
-        n1 = scan.nextInt();
+        escolha = scan.nextInt();
 
         Cachorro cachorro = new Cachorro("jonas", 2, "Marrom");
         cachorro.somAnimal();
