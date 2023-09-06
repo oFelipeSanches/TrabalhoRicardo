@@ -10,7 +10,7 @@ public class Animal {
     }
 
     public void somAnimal() {
-        System.out.println("O som que o animal faz é: ");
+        System.out.print("");
     }
 
 
