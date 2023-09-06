@@ -41,7 +41,7 @@ public class Executora {
                         break;
 
                     case 2:
-                        System.out.print("Digite o nome do gato: ");
+                        System.out.print("\nDigite o nome do gato: ");
                         String nomeGato = scan.nextLine();
                         System.out.print("Digite a idade do gato: ");
                         int idadeGato = scan.nextInt();
@@ -54,7 +54,7 @@ public class Executora {
                         break;
 
                     case 3:
-                        System.out.print("Digite o nome do Porco: ");
+                        System.out.print("\nDigite o nome do Porco: ");
                         String nomePorco = scan.nextLine();
                         System.out.print("Digite a idade do Porco: ");
                         int idadePorco = scan.nextInt();
@@ -87,7 +87,7 @@ public class Executora {
 
                 switch (op) {
                     case 1:
-                        System.out.print("Digite o nome da tartaruga: ");
+                        System.out.print("\nDigite o nome da tartaruga: ");
                         String nomeTartaruga = scan.nextLine();
                         System.out.print("Digite a idade da tartaruga: ");
                         int idadeTartaruga = scan.nextInt();
@@ -104,7 +104,7 @@ public class Executora {
                         break;
 
                     case 2:
-                        System.out.print("Digite o nome da galinha: ");
+                        System.out.print("\nDigite o nome da galinha: ");
                         String nomeGalinha = scan.nextLine();
                         System.out.print("Digite a idade da galinha: ");
                         int idadeGalinha = scan.nextInt();
