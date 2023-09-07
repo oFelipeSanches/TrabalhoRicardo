@@ -13,7 +13,6 @@ public class Executora {
         Scanner scan = new Scanner(System.in);
 
         escolha = scan.nextInt();
-        boolean sair = false;
 
         Funcionalidades choose = new Funcionalidades();
         choose.definirTipo(escolha);

@@ -42,6 +42,7 @@ public class Funcionalidades extends Executora{
                         String corPeloGato = scan.nextLine();
                         Gato gato = new Gato(nomeGato, idadeGato, corPeloGato);
 
+                        gato.informacoes();
                         gato.somAnimal();
                         break;
 
