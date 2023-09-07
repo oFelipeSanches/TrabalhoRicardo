@@ -8,8 +8,8 @@ public class Mamifero extends Animal {
         this.corDoPelo = corDoPelo;
     }
 
-    public void informacoes() {
-        System.out.printf("%s que é da cor %s tem %d anos de idade, no momento está ", this.getNome(), this.getCorDoPelo(), this.getIdade());
+    public void infMamifero() {
+        System.out.printf("%s que é da cor %s tem %d anos de idade e no momento está ", this.getNome(), this.getCorDoPelo(), this.getIdade());
     }
 
     public String getCorDoPelo() {

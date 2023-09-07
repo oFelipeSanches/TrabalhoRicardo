@@ -8,10 +8,8 @@ public class Galinha extends Oviparo{
         this.corDaPena = corDaPena;
     }
 
-    @Override
-    public void somAnimal() {
-        super.somAnimal();
-        System.out.println("Có córicó");
+    public void infGalinha() {
+        System.out.printf("A galinha %s de %d anos de idade, tem a cor da pena %s e ja botou %d de ovos", this.getNome(), this.getIdade(), this.getCorDaPena(), this.getQuantidadeDeOvos());
     }
 
     public String getCorDaPena() {

@@ -22,13 +22,14 @@ public class Funcionalidades extends Executora{
                     case 1:
                         System.out.print("\nDigite o nome do cachorro: ");
                         String nomeCachorro = scan.nextLine();
-                        System.out.print("\nDigite a idade do cachorro: ");
+                        System.out.print("Digite a idade do cachorro: ");
                         int idadeCachorro = scan.nextInt();
                         scan.nextLine();
-                        System.out.print("\nDigite a cor do pelo do cachorro: ");
+                        System.out.print("Digite a cor do pelo do cachorro: ");
                         String corPeloCachorro = scan.nextLine();
                         Cachorro cachorro = new Cachorro(nomeCachorro, idadeCachorro, corPeloCachorro);
 
+                        cachorro.infMamifero();
                         cachorro.somAnimal();
                         break;
 
@@ -42,7 +43,7 @@ public class Funcionalidades extends Executora{
                         String corPeloGato = scan.nextLine();
                         Gato gato = new Gato(nomeGato, idadeGato, corPeloGato);
 
-                        gato.informacoes();
+                        gato.infMamifero();
                         gato.somAnimal();
                         break;
 
@@ -51,10 +52,12 @@ public class Funcionalidades extends Executora{
                         String nomePorco = scan.nextLine();
                         System.out.print("Digite a idade do Porco: ");
                         int idadePorco = scan.nextInt();
+                        scan.nextLine();
                         System.out.print("Digite a cor do Porco: ");
                         String corPorco = scan.nextLine();
                         Porco porco = new Porco(nomePorco, idadePorco, corPorco);
 
+                        porco.infMamifero();
                         porco.somAnimal();
                         break;
 
@@ -93,7 +96,7 @@ public class Funcionalidades extends Executora{
 
                         Tartaruga tartaruga = new Tartaruga(nomeTartaruga, idadeTartaruga, quantidadeOvosTartaruga, tipoCascoTartaruga);
 
-                        tartaruga.somAnimal();
+                        tartaruga.infTartaruga();
                         break;
 
                     case 2:
@@ -101,7 +104,7 @@ public class Funcionalidades extends Executora{
                         String nomeGalinha = scan.nextLine();
                         System.out.print("Digite a idade da galinha: ");
                         int idadeGalinha = scan.nextInt();
-                        System.out.print("Digite a quantidade de ovos: ");
+                        System.out.print("Digite a quantidade de ovos que a galinha ja botou: ");
                         int quantidadeGalinha = scan.nextInt();
                         scan.nextLine();
                         System.out.print("Digite a cor da pena da galinha: ");
@@ -109,7 +112,7 @@ public class Funcionalidades extends Executora{
 
                         Galinha galinha = new Galinha(nomeGalinha, idadeGalinha,quantidadeGalinha,corPena);
 
-                        galinha.somAnimal();;
+                        galinha.infGalinha();;
                         break;
 
                     case 0:
