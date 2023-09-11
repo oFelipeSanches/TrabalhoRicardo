@@ -9,7 +9,7 @@ public class Galinha extends Oviparo{
     }
 
     public void infGalinha() {
-        System.out.printf("A galinha %s de %d anos de idade, tem a cor da pena %s e ja botou %d de ovos", this.getNome(), this.getIdade(), this.getCorDaPena(), this.getQuantidadeDeOvos());
+        System.out.printf("\nA galinha %s de %d anos de idade, tem a cor da pena %s e ja botou %d de ovos", this.getNome(), this.getIdade(), this.getCorDaPena(), this.getQuantidadeDeOvos());
     }
 
     public String getCorDaPena() {

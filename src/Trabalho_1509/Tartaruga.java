@@ -9,7 +9,7 @@ public class Tartaruga extends Oviparo{
     }
 
     public void infTartaruga() {
-        System.out.printf("A tartaruga %s com o casco %s de %d anos de idade ja botou %d de ovos", this.getNome(), this.getTipoCasco(), this.getIdade(), this.getQuantidadeDeOvos());
+        System.out.printf("\nA tartaruga %s com o casco %s de %d anos de idade ja botou %d de ovos", this.getNome(), this.getTipoCasco(), this.getIdade(), this.getQuantidadeDeOvos());
     }
 
     public String getTipoCasco() {
